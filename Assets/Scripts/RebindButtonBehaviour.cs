@@ -102,6 +102,9 @@ public class RebindButtonBehaviour : MonoBehaviour
          .WithControlsExcluding("<Gamepad>/LeftStick/Y")
          .WithControlsExcluding("<Gamepad>/D-Pad/X")
          .WithControlsExcluding("<Gamepad>/D-Pad/Y")
+         .WithControlsExcluding("<Gamepad>/RightStick/X")
+         .WithControlsExcluding("<Gamepad>/RightStick/Y")
+
          .OnMatchWaitForAnother(0.1f)
          .OnComplete(operation => RebindCompleted());
 
