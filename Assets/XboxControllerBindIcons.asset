@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e021c40d5b3c3e40bb3bdcf5271f6b3, type: 3}
+  m_Name: XboxControllerBindIcons
+  m_EditorClassIdentifier: 
+  deviceBindData:
+  - bindName: Button East
+    bindIcon: {fileID: 21300000, guid: ab4af6c5bfb4bd648acd588963ab0678, type: 3}
+  - bindName: Button North
+    bindIcon: {fileID: 21300000, guid: 193d8f961bf674c4a950409e03cb4cbb, type: 3}
+  - bindName: Button South
+    bindIcon: {fileID: 21300000, guid: 412159914cf146e488d1959a43be68bc, type: 3}
+  - bindName: Button West
+    bindIcon: {fileID: 21300000, guid: 8ec819106fcd772428653d02ca13e47c, type: 3}
+  - bindName: Left Stick/Up
+    bindIcon: {fileID: 21300000, guid: 6fedb06f4d802a645b3ec847b6993550, type: 3}
+  - bindName: Left Stick/Down
+    bindIcon: {fileID: 21300000, guid: 15424ae542976a8459216adea9740181, type: 3}
+  - bindName: Left Stick/Left
+    bindIcon: {fileID: 21300000, guid: baf9c05c76b9b764ba1b989f860d1997, type: 3}
+  - bindName: Left Stick/Right
+    bindIcon: {fileID: 21300000, guid: ecfae73eb8b38794fb0e0f6acb8b5841, type: 3}
+  - bindName: Left Stick Press
+    bindIcon: {fileID: 21300000, guid: 55cb58fe51dbfc44296c93d88185cb71, type: 3}
+  - bindName: Right Stick/Up
+    bindIcon: {fileID: 21300000, guid: 592742094565e04499691ca3725ba401, type: 3}
+  - bindName: Right Stick/Down
+    bindIcon: {fileID: 21300000, guid: 2db2923c62735a641b7081a11e5c5444, type: 3}
+  - bindName: Right Stick/Left
+    bindIcon: {fileID: 21300000, guid: ad6de802f42aaaf4484ad15a20c5e5ac, type: 3}
+  - bindName: Right Stick/Right
+    bindIcon: {fileID: 21300000, guid: 298d13fb496b0a34d9bc81bc04c8f00a, type: 3}
+  - bindName: Right Stick Press
+    bindIcon: {fileID: 21300000, guid: 134a9d5876e61c84ea978a52d2076ee0, type: 3}
+  - bindName: D-Pad/Up
+    bindIcon: {fileID: 21300000, guid: 6848d5a2be1903540aa30000f3e3613e, type: 3}
+  - bindName: D-Pad/Down
+    bindIcon: {fileID: 21300000, guid: 56804c2491918264780f1bd268f78020, type: 3}
+  - bindName: D-Pad/Left
+    bindIcon: {fileID: 21300000, guid: db9fdc31fbe4b534fa2a2ff66d849984, type: 3}
+  - bindName: D-Pad/Right
+    bindIcon: {fileID: 21300000, guid: a3aeba0d987193e4793259139963862f, type: 3}
+  - bindName: Left Trigger
+    bindIcon: {fileID: 21300000, guid: a78b4d56d275a9a458c97b524ab26f53, type: 3}
+  - bindName: Right Trigger
+    bindIcon: {fileID: 21300000, guid: 6ee1e07df45333b4595894b714a54c8a, type: 3}
+  - bindName: Left Shoulder
+    bindIcon: {fileID: 21300000, guid: c82ae7b2bacb91446ae0a4fe99b9189b, type: 3}
+  - bindName: Right Shoulder
+    bindIcon: {fileID: 21300000, guid: 7063ad828c2c24341978d86190a74256, type: 3}
