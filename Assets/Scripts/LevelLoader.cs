@@ -11,20 +11,6 @@ public class LevelLoader : MonoBehaviour
     [SerializeField] Animator faderAnimator;
 
 	public static event Action<string> OnNewLevelLoaded;
-	public static LevelLoader Instance;
-
-	public void Awake()
-	{
-		if(Instance!=null)
-		{
-			Destroy(gameObject);
-		}
-		else
-		{
-			Instance = this;
-			DontDestroyOnLoad(gameObject);
-		}
-	}
 
 	private void Update()
 	{
